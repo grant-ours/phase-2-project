@@ -1,0 +1,20 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Subaru",
+      "model": "WRX",
+      "year": "2022",
+      "price": "29,605",
+      "img": "https://s7d1.scene7.com/is/image/scom/NUE_default_pass_scaled?$900p$"
+    },
+    {
+      "model": "Bronco Sport",
+      "make": "Ford",
+      "year": "2021",
+      "price": ".125",
+      "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBHAqAC1dDYQWZ34xohrnDEtJqqBvthf4uPN2-q8drazka1KzS",
+      "id": 2
+    }
+  ]
+}
