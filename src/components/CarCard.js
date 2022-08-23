@@ -9,8 +9,8 @@ function CarCard({ make, model, year, img, price }) {
     <li className="card">
       <img src={img} alt={model} />
       <h4>
-        {make}
-        {model}
+        {make + " "}
+        {model + " "}
         {year}
       </h4>
       <p>Price: ${price}</p>
