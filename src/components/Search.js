@@ -1,6 +1,6 @@
 import React from "react";
 
-function Search() {
+function Search({ setInput, input }) {
   return (
     <div className="searchbar">
       <label htmlFor="search">Search Cars:</label>
@@ -8,7 +8,8 @@ function Search() {
         type="text"
         id="search"
         placeholder="Type a name to search..."
-        onChange={(e) => console.log("Searching...")}
+        onChange={(e) => setInput(e.target.value)}
+        value={input}
       />
     </div>
   );

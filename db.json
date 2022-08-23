@@ -12,9 +12,65 @@
       "model": "Bronco Sport",
       "make": "Ford",
       "year": "2021",
-      "price": ".125",
+      "price": "28,000",
       "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBHAqAC1dDYQWZ34xohrnDEtJqqBvthf4uPN2-q8drazka1KzS",
       "id": 2
+    },
+    {
+      "model": "Huarya R",
+      "make": "Pagani",
+      "year": "2022",
+      "price": "3,000,000",
+      "img": "https://nvl5.ru/wp-content/uploads/2021/03/Pagani-Huayra-R-2021.....jpg",
+      "id": 3
+    },
+    {
+      "model": "GR Supra",
+      "make": "Toyota",
+      "year": "2022",
+      "price": "43,290",
+      "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/max/2022/grsupra/a91-cfedition/2378/d01/2.png?fm=webp&bg=white&w=768&h=328&q=90",
+      "id": 4
+    },
+    {
+      "model": "F40",
+      "make": "Ferrari",
+      "year": "1992",
+      "price": "~2,000,000",
+      "img": "https://www.carscoops.com/wp-content/uploads/2016/01/s-l1600-28229q.jpg",
+      "id": 5
+    },
+    {
+      "model": "911 Carrera",
+      "make": "Porche",
+      "year": "2022",
+      "price": "101,200",
+      "img": "https://mysterio.yahoo.com/mysterio/api/46EC413FD771D8B8EAD03FC0C54BC6445E051F7FDCEBB88E7F0BE3102A89478E/autoblog/resizefill_w660_h372;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USD00PRC013A021001.jpg",
+      "id": 6
+    },
+    {
+      "model": "Nevera",
+      "make": "Rimac",
+      "year": "2021",
+      "price": "2,400,000",
+      "img": "https://cdn.carbuzz.com/car-thumbnails/700x375/10000/800/10844.jpg",
+      "id": 7
+    },
+    {
+      "model": "Air (Dream Edition)",
+      "make": "Lucid",
+      "year": "2022",
+      "price": "169,000",
+      "img": "https://bringatrailer.com/wp-content/uploads/2022/04/2022_lucid_air-dream-edition-performance_1-23-22934.jpg?fit=940%2C626",
+      "id": 8
+    },
+    {
+      "model": "BRZ",
+      "make": "Subaru",
+      "year": "2022",
+      "price": "32,300",
+      "img": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/15058/2022-Subaru-BRZ-front_15058_032_2400x1800_K1X.png",
+      "id": 9
     }
   ]
 }
