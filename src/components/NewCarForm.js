@@ -48,7 +48,7 @@ function NewCarForm({ addCar }) {
   }
   return (
     <div className="new-car-form">
-      <h2>New Car</h2>
+      <h2>Sell Your Car to Us!</h2>
       <form onSubmit={handleSubmit}>
         {/* have to change/add input fields for make, model, year, price, and image */}
         <input
@@ -88,7 +88,7 @@ function NewCarForm({ addCar }) {
           placeholder="Image URL"
         />
         <button onClick={handleSubmit} type="submit">
-          Add Car
+          Sell Car
         </button>
       </form>
     </div>
