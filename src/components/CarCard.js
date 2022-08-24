@@ -19,7 +19,7 @@ function CarCard({ make, model, year, img, price, id }) {
     // </Card>
     <Link to={`/cars/${id}`}>
       <Card>
-        <img src={img} alt={model} />
+        <img src={img} alt={model} className="image" />
         <h4>
           {make + " "}
           {model + " "}
