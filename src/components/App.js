@@ -3,10 +3,12 @@ import HomePage from "./HomePage";
 import BuyPage from "./BuyPage";
 import SellPage from "./SellPage.js";
 import { Route, Routes } from "react-router-dom";
+import CarPage from "./CarPage";
 
 function App() {
   const [cars, setCars] = useState([]);
   const [input, setInput] = useState("");
+  // const [id, setId] = useState("");
   const filteredCars = cars.filter((car) => {
     return (
       input === "" ||
@@ -20,11 +22,13 @@ function App() {
       .then((r) => r.json())
       .then((data) => setCars(data));
   }, []);
+
   function addCar(data) {
     setCars([...cars, data]);
   }
+
   return (
-    <Routes>
+    <Routes className="App">
       <Route path="/" element={<HomePage cars={cars} />} />
       <Route
         path="/buy"
@@ -37,6 +41,7 @@ function App() {
         }
       />
       <Route path="/sell" element={<SellPage addCar={addCar} cars={cars} />} />
+      <Route path="/cars/:id" element={<CarPage />} />
     </Routes>
   );
 }
