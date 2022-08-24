@@ -1,16 +1,33 @@
-import React, { useState } from "react";
+import React from "react";
+import { Card } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
-function CarCard({ make, model, year, img, price }) {
+function CarCard({ make, model, year, img, price, id }) {
   return (
-    <li className="card">
-      <img src={img} alt={model} />
-      <h4>
-        {make + " "}
-        {model + " "}
-        {year}
-      </h4>
-      <p>Price: ${price}</p>
-    </li>
+    // <Card>
+    //   <Image src={img} wrapped ui={false} />
+    //   <Card.Content>
+    //     <Card.Header>
+    //       {make + " "}
+    //       {model + " "}
+    //     </Card.Header>
+    //     <Card.Meta>
+    //       <span className="date">{year}</span>
+    //     </Card.Meta>
+    //     <Card.Description>${price}</Card.Description>
+    //   </Card.Content>
+    // </Card>
+    <Link to={`/cars/${id}`}>
+      <Card>
+        <img src={img} alt={model} />
+        <h4>
+          {make + " "}
+          {model + " "}
+          {year}
+        </h4>
+        <p>Price: ${price}</p>
+      </Card>
+    </Link>
   );
 }
 

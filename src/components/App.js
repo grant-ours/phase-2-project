@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   const [cars, setCars] = useState([]);
   const [input, setInput] = useState("");
+  const [id, setId] = useState("");
   const filteredCars = cars.filter((car) => {
     return (
       input === "" ||
@@ -20,12 +21,18 @@ function App() {
       .then((r) => r.json())
       .then((data) => setCars(data));
   }, []);
+
   function addCar(data) {
     setCars([...cars, data]);
   }
+
+  function carId(x) {
+    setId(x);
+  }
+
   return (
     <Routes>
-      <Route path="/" element={<HomePage cars={cars} />} />
+      <Route path="/" element={<HomePage carId={carId} cars={cars} />} />
       <Route
         path="/buy"
         element={
@@ -37,6 +44,7 @@ function App() {
         }
       />
       <Route path="/sell" element={<SellPage addCar={addCar} cars={cars} />} />
+      {/* <Route path={`/cars/${id}`} element={<HomePage />} /> */}
     </Routes>
   );
 }
