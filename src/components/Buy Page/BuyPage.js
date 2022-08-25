@@ -1,17 +1,21 @@
 import React from "react";
 import Search from "./Search";
-import Header from "./Header";
-import NavBar from "./NavBar";
+import Header from "../Header";
+import NavBar from "../NavBar";
 import CarListBtn from "./CarListBtn";
+import { Container } from "semantic-ui-react";
 
 function BuyPage({ input, setInput, filteredCars }) {
   return (
-    <div>
+    <Container>
       <Header />
+      <br />
       <NavBar />
+      <br />
       <Search input={input} setInput={setInput} />
+      <br />
       <CarListBtn cars={filteredCars} />
-    </div>
+    </Container>
   );
 }
 export default BuyPage;

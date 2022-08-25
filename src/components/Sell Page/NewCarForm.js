@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button } from "semantic-ui-react";
 
 function NewCarForm({ addCar }) {
   const [modelInput, setModelInput] = useState("");
@@ -50,7 +51,6 @@ function NewCarForm({ addCar }) {
     <div className="new-car-form">
       <h2>Sell Your Car to Us!</h2>
       <form onSubmit={handleSubmit}>
-        {/* have to change/add input fields for make, model, year, price, and image */}
         <input
           onChange={handleModelChange}
           value={modelInput}
@@ -87,9 +87,7 @@ function NewCarForm({ addCar }) {
           name="image"
           placeholder="Image URL"
         />
-        <button onClick={handleSubmit} type="submit">
-          Sell Car
-        </button>
+        <Button>Sell Car</Button>
       </form>
     </div>
   );

@@ -1,12 +1,13 @@
 {
   "cars": [
     {
-      "id": 1,
       "make": "Subaru",
       "model": "WRX",
       "year": "2022",
       "price": "29,605",
-      "img": "https://s7d1.scene7.com/is/image/scom/NUE_default_pass_scaled?$900p$"
+      "img": "https://s7d1.scene7.com/is/image/scom/NUE_default_pass_scaled?$900p$",
+      "comments": "",
+      "id": 1
     },
     {
       "model": "Bronco Sport",
@@ -14,7 +15,8 @@
       "year": "2021",
       "price": "28,000",
       "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBHAqAC1dDYQWZ34xohrnDEtJqqBvthf4uPN2-q8drazka1KzS",
-      "id": 2
+      "id": 2,
+      "comments": ""
     },
     {
       "model": "Huarya R",
@@ -22,7 +24,8 @@
       "year": "2022",
       "price": "3,000,000",
       "img": "https://nvl5.ru/wp-content/uploads/2021/03/Pagani-Huayra-R-2021.....jpg",
-      "id": 3
+      "id": 3,
+      "comments": ""
     },
     {
       "model": "GR Supra",
@@ -30,7 +33,8 @@
       "year": "2022",
       "price": "43,290",
       "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/max/2022/grsupra/a91-cfedition/2378/d01/2.png?fm=webp&bg=white&w=768&h=328&q=90",
-      "id": 4
+      "id": 4,
+      "comments": ""
     },
     {
       "model": "F40",
@@ -38,7 +42,8 @@
       "year": "1992",
       "price": "~2,000,000",
       "img": "https://www.carscoops.com/wp-content/uploads/2016/01/s-l1600-28229q.jpg",
-      "id": 5
+      "id": 5,
+      "comments": ""
     },
     {
       "model": "911 Carrera",
@@ -46,7 +51,8 @@
       "year": "2022",
       "price": "101,200",
       "img": "https://mysterio.yahoo.com/mysterio/api/46EC413FD771D8B8EAD03FC0C54BC6445E051F7FDCEBB88E7F0BE3102A89478E/autoblog/resizefill_w660_h372;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USD00PRC013A021001.jpg",
-      "id": 6
+      "id": 6,
+      "comments": ""
     },
     {
       "model": "Nevera",
@@ -54,7 +60,8 @@
       "year": "2021",
       "price": "2,400,000",
       "img": "https://cdn.carbuzz.com/car-thumbnails/700x375/10000/800/10844.jpg",
-      "id": 7
+      "id": 7,
+      "comments": ""
     },
     {
       "model": "Air (Dream Edition)",
@@ -62,7 +69,8 @@
       "year": "2022",
       "price": "169,000",
       "img": "https://bringatrailer.com/wp-content/uploads/2022/04/2022_lucid_air-dream-edition-performance_1-23-22934.jpg?fit=940%2C626",
-      "id": 8
+      "id": 8,
+      "comments": ""
     },
     {
       "model": "BRZ",
@@ -70,7 +78,8 @@
       "year": "2022",
       "price": "32,300",
       "img": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/15058/2022-Subaru-BRZ-front_15058_032_2400x1800_K1X.png",
-      "id": 9
+      "id": 9,
+      "comments": ""
     },
     {
       "model": "Miata",
@@ -78,7 +87,8 @@
       "year": "2022",
       "price": "27,650",
       "img": "https://www.mazdausa.com/siteassets/vehicles/2022/mx-5-st/trims/sport/2022-mx-5-st-sport-jetblack-carousel.png",
-      "id": 10
+      "id": 10,
+      "comments": ""
     },
     {
       "model": "M3",
@@ -86,7 +96,8 @@
       "year": "2022",
       "price": "70,100",
       "img": "https://s.aolcdn.com/commerce/autodata/images/CAD10BMC111B021001.jpg",
-      "id": 11
+      "id": 11,
+      "comments": ""
     },
     {
       "model": "Model Y",
@@ -94,7 +105,8 @@
       "year": "2022",
       "price": "65,990",
       "img": "https://d2ivfcfbdvj3sm.cloudfront.net/7fc965ab77efe6e0fa62e4ca1ea7673bb25e49570f1e3d8e88cb10/stills_0640_png/MY2021/14864/14864_st0640_116.png",
-      "id": 12
+      "id": 12,
+      "comments": ""
     },
     {
       "model": "Range Rover Sport",
@@ -102,7 +114,8 @@
       "year": "2022",
       "price": "70,900",
       "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMsDBRjmNf6GRtGbt4NbbzT0NjvEN01xKnQnP9aw45Ic9GGoNY",
-      "id": 13
+      "id": 13,
+      "comments": ""
     },
     {
       "model": "e-tron GT",
@@ -110,7 +123,8 @@
       "year": "2022",
       "price": "102,400",
       "img": "https://i.pcmag.com/imagery/reviews/01fwS9glbNnnHqVD7Z4ZIaA-1.fit_scale.size_760x427.v1651517920.png",
-      "id": 14
+      "id": 14,
+      "comments": ""
     },
     {
       "model": "NSX",
@@ -118,7 +132,8 @@
       "year": "2022",
       "price": "169,500",
       "img": "https://cdn.jdpower.com/Models/640x480/2022-Acura-NSX-TypeS.jpg",
-      "id": 15
+      "id": 15,
+      "comments": ""
     }
 
   ]

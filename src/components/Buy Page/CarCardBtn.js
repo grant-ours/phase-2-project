@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button } from "semantic-ui-react";
 
 function CarCardBtn({ make, model, year, img, price }) {
   const [isInStock, setIsInStock] = useState(true);
@@ -15,11 +16,13 @@ function CarCardBtn({ make, model, year, img, price }) {
       </h4>
       <p>Price: ${price}</p>
       {isInStock ? (
-        <button onClick={handleOnClick} className="primary">
+        <Button positive onClick={handleOnClick} className="primary">
           Buy?
-        </button>
+        </Button>
       ) : (
-        <button onClick={handleOnClick}>Sold!</button>
+        <Button negative onClick={handleOnClick}>
+          Sold!
+        </Button>
       )}
     </li>
   );

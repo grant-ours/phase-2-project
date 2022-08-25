@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import HomePage from "./HomePage";
-import BuyPage from "./BuyPage";
-import SellPage from "./SellPage.js";
+import BuyPage from "./Buy Page/BuyPage";
+import SellPage from "./Sell Page/SellPage.js";
 import { Route, Routes } from "react-router-dom";
 import CarPage from "./CarPage";
 

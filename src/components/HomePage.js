@@ -10,10 +10,11 @@ function HomePage({ cars }) {
       <Header />
       <br />
       <NavBar />
-      <br />
       <h2>Browse Our Cars!</h2>
       <br />
-      <CarList cars={cars} />
+      <div>
+        <CarList cars={cars} />
+      </div>
     </Container>
   );
 }
