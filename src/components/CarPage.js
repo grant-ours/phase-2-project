@@ -16,7 +16,7 @@ function CarPage() {
   const [car, setCar] = useState({});
   const [input, setInput] = useState("");
   const { id } = useParams();
-
+  console.log(input);
   useEffect(() => {
     fetch(`http://localhost:6001/cars/${id}`) //URL FOR ARRAY OF CARS HERE
       .then((r) => r.json())
@@ -27,13 +27,15 @@ function CarPage() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    console.log(car.comments);
     let CarObj = {
       make: car.make,
       model: car.model,
       year: car.year,
       price: car.price,
       img: car.img,
-      comments: input,
+      comments: [...car.comments, input],
+      id: 1,
     };
     fetch(`http://localhost:6001/cars/${id}`, {
       method: "PUT",
@@ -44,8 +46,9 @@ function CarPage() {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        setCar(data);
       });
+    e.target.reset();
   }
 
   function handleChange(e) {
@@ -70,7 +73,13 @@ function CarPage() {
             <Icon name="right arrow" />
           </Button>
         </Form>
-        <p>{car.comments}</p>
+        {car.comments === undefined ? (
+          <p>No Comments</p>
+        ) : (
+          car.comments.map((comment) => {
+            return <li key={comment}>{comment}</li>;
+          })
+        )}
       </Segment>
     </Container>
   );

@@ -16,11 +16,11 @@ function CarCardBtn({ make, model, year, img, price }) {
       </h4>
       <p>Price: ${price}</p>
       {isInStock ? (
-        <Button positive onClick={handleOnClick} className="primary">
+        <Button positive onClick={handleOnClick} className="button">
           Buy?
         </Button>
       ) : (
-        <Button negative onClick={handleOnClick}>
+        <Button negative onClick={handleOnClick} className="button">
           Sold!
         </Button>
       )}

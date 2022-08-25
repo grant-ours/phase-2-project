@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <nav className="navbar">
-      <Link className="link" to="/">
-        Home
-      </Link>
-      <Link className="link" to="/buy">
-        Buy
-      </Link>
-      <Link className="link" to="/sell">
-        Sell
-      </Link>
+      <div className="link">
+        <Link to="/">Home</Link>
+      </div>
+      <div className="link">
+        <Link to="/buy">Buy</Link>
+      </div>
+      <div className="link">
+        <Link to="/sell">Sell</Link>
+      </div>
     </nav>
   );
 }

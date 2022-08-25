@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function CarCard({ make, model, year, img, price, id }) {
   return (
     <Card>
-      <Link to={`/cars/${id}`}>
+      <Link color="black" to={`/cars/${id}`}>
         <img src={img} alt={model} className="image" />
         <h4>
           {make + " "}

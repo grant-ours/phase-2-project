@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "semantic-ui-react";
+import { Button, Form } from "semantic-ui-react";
 
 function NewCarForm({ addCar }) {
   const [modelInput, setModelInput] = useState("");
@@ -50,45 +50,47 @@ function NewCarForm({ addCar }) {
   return (
     <div className="new-car-form">
       <h2>Sell Your Car to Us!</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          onChange={handleModelChange}
-          value={modelInput}
-          type="text"
-          name="model"
-          placeholder="Model"
-        />
-        <input
-          onChange={handleMakeChange}
-          value={makeInput}
-          type="text"
-          name="make"
-          placeholder="Make"
-        />
-        <input
-          onChange={handleYearChange}
-          value={yearInput}
-          type="text"
-          name="year"
-          placeholder="Year"
-        />
-        <input
-          onChange={handlePriceChange}
-          value={priceInput}
-          type="number"
-          name="price"
-          step="0.01"
-          placeholder="Price"
-        />
-        <input
-          onChange={handleImgChange}
-          value={imgInput}
-          type="text"
-          name="image"
-          placeholder="Image URL"
-        />
-        <Button>Sell Car</Button>
-      </form>
+      <Form onSubmit={handleSubmit}>
+        <Form.Group>
+          <Form.Input
+            onChange={handleModelChange}
+            value={modelInput}
+            type="text"
+            name="model"
+            placeholder="Model"
+          />
+          <Form.Input
+            onChange={handleMakeChange}
+            value={makeInput}
+            type="text"
+            name="make"
+            placeholder="Make"
+          />
+          <Form.Input
+            onChange={handleYearChange}
+            value={yearInput}
+            type="text"
+            name="year"
+            placeholder="Year"
+          />
+          <Form.Input
+            onChange={handlePriceChange}
+            value={priceInput}
+            type="number"
+            name="price"
+            step="0.01"
+            placeholder="Price"
+          />
+          <Form.Input
+            onChange={handleImgChange}
+            value={imgInput}
+            type="text"
+            name="image"
+            placeholder="Image URL"
+          />
+        </Form.Group>
+        <Button fluid>Sell Car</Button>
+      </Form>
     </div>
   );
 }
