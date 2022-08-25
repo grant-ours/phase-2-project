@@ -5,7 +5,6 @@ function Header() {
     <header>
       <h1>
         Grant and Anna's Car Lot
-  
         <span className="logo" role="img">
           🚗
         </span>

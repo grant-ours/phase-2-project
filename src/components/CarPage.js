@@ -59,7 +59,7 @@ function CarPage() {
       <NavBar />
       <br />
       <Segment>
-        <h1>${car.price}</h1>
+        <text className="price">${car.price}</text>
         <Image src={car.img} className="single-car" centered />
         <h2>{car.make + " " + car.model + " " + car.year}</h2>
         <Form onSubmit={handleSubmit}>
