@@ -5,13 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-
 }
 
 .image {
@@ -51,10 +49,11 @@ p {
   padding: 20px;
 }
 
-.App {
-  text-align: center;
+.price {
+  float: left;
+  font-size: x-large;
+  font-weight: bold;
 }
-
 .App {
   text-align: center;
 }
