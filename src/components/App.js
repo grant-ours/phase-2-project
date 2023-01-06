@@ -18,7 +18,7 @@ function App() {
     );
   });
   useEffect(() => {
-    fetch("http://localhost:6001/cars") //URL FOR ARRAY OF CARS HERE
+    fetch("https://blushing-tin-revolve.glitch.me/cars") //URL FOR ARRAY OF CARS HERE
       .then((r) => r.json())
       .then((data) => setCars(data));
   }, []);
