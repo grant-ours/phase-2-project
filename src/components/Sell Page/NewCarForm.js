@@ -34,7 +34,7 @@ function NewCarForm({ addCar }) {
       img: imgInput,
     };
 
-    fetch("http://localhost:6001/cars", {
+    fetch("https://warp-gossamer-asteroid.glitch.me/cars", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
