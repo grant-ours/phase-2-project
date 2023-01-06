@@ -18,7 +18,7 @@ function App() {
     );
   });
   useEffect(() => {
-    fetch("https://blushing-tin-revolve.glitch.me/cars") //URL FOR ARRAY OF CARS HERE
+    fetch("https://warp-gossamer-asteroid.glitch.me/cars") //URL FOR ARRAY OF CARS HERE
       .then((r) => r.json())
       .then((data) => setCars(data));
   }, []);
