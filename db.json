@@ -6,7 +6,10 @@
       "year": "2022",
       "price": "29,605",
       "img": "https://s7d1.scene7.com/is/image/scom/NUE_default_pass_scaled?$900p$",
-      "comments": ["So good!\n", "Wow", "hello m8"],
+      "comments": [
+        "Yo this car is sick!",
+        "Im so good at this now"
+      ],
       "id": 1
     },
     {
@@ -19,31 +22,38 @@
       "id": 2
     },
     {
-      "model": "Huarya R",
       "make": "Pagani",
+      "model": "Huarya R",
       "year": "2022",
       "price": "3,000,000",
       "img": "https://nvl5.ru/wp-content/uploads/2021/03/Pagani-Huayra-R-2021.....jpg",
-      "id": 3,
-      "comments": []
+      "comments": [
+        "This car is sick!"
+      ],
+      "id": 3
     },
     {
-      "model": "GR Supra",
       "make": "Toyota",
+      "model": "GR Supra",
       "year": "2022",
       "price": "43,290",
       "img": "https://www.toyota.com/imgix/content/dam/toyota/jellies/max/2022/grsupra/a91-cfedition/2378/d01/2.png?fm=webp&bg=white&w=768&h=328&q=90",
-      "id": 4,
-      "comments": []
+      "comments": [
+        "I like this car",
+        "more comments"
+      ],
+      "id": 4
     },
     {
-      "model": "F40",
       "make": "Ferrari",
+      "model": "F40",
       "year": "1992",
       "price": "~2,000,000",
       "img": "https://www.carscoops.com/wp-content/uploads/2016/01/s-l1600-28229q.jpg",
-      "id": 5,
-      "comments": []
+      "comments": [
+        "Hello"
+      ],
+      "id": 5
     },
     {
       "model": "911 Carrera",
@@ -55,13 +65,15 @@
       "comments": []
     },
     {
-      "model": "Nevera",
       "make": "Rimac",
+      "model": "Nevera",
       "year": "2021",
       "price": "2,400,000",
       "img": "https://cdn.carbuzz.com/car-thumbnails/700x375/10000/800/10844.jpg",
-      "id": 7,
-      "comments": []
+      "comments": [
+        "Here is a comment"
+      ],
+      "id": 7
     },
     {
       "model": "Air (Dream Edition)",
@@ -134,6 +146,14 @@
       "img": "https://cdn.jdpower.com/Models/640x480/2022-Acura-NSX-TypeS.jpg",
       "id": 15,
       "comments": []
+    },
+    {
+      "model": "Camry",
+      "make": "Toyota",
+      "year": "2023",
+      "price": "15000",
+      "img": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/efc2df08-a513-4caa-ab68-6310da6e72ff/d9e3b2c0-552e-4764-ba72-ba207220d907.png",
+      "id": 16
     }
   ]
 }
