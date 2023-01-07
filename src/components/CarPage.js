@@ -18,7 +18,7 @@ function CarPage() {
   const { id } = useParams();
   console.log(input);
   useEffect(() => {
-    fetch(`http://localhost:6001/cars/${id}`) //URL FOR ARRAY OF CARS HERE
+    fetch(`https://warp-gossamer-asteroid.glitch.me/cars/${id}`) //URL FOR ARRAY OF CARS HERE
       .then((r) => r.json())
       .then((car) => {
         setCar(car);
@@ -37,7 +37,7 @@ function CarPage() {
       comments: [...car.comments, input],
       id: 1,
     };
-    fetch(`http://localhost:6001/cars/${id}`, {
+    fetch(`https://warp-gossamer-asteroid.glitch.me/cars/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
