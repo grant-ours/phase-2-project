@@ -18,9 +18,9 @@ function App() {
     );
   });
   useEffect(() => {
-    fetch("https://warp-gossamer-asteroid.glitch.me/cars") //URL FOR ARRAY OF CARS HERE
+    fetch("https://api.jsonbin.io/v3/b/63b9041b01a72b59f243ccf4") //URL FOR ARRAY OF CARS HERE
       .then((r) => r.json())
-      .then((data) => setCars(data));
+      .then((data) => setCars(data.record.cars));
   }, []);
 
   function addCar(data) {
